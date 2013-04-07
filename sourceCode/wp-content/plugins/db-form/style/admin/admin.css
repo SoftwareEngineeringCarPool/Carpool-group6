@@ -1,0 +1,20 @@
+#icon-va-db-form {
+	background: url(../../img/icon.png) no-repeat;	
+}
+
+.db-form-error {
+	display: block;
+	margin: 5px 0 5px 0;
+	padding: 5px 5px 5px 20px;
+	color: red;
+	border: 1px solid red;
+	background: #FFACAC url(../../img/important.png) 4px 7px no-repeat;	
+}
+.db-form-note {
+	display: block;
+	margin: 5px 0 5px 0;
+	padding: 5px 5px 5px 20px;
+	color: #E5B700;
+	border: 1px solid #E5B700;
+	background: #FFEFC5 url(../../img/note.png) 4px 7px no-repeat;	
+}

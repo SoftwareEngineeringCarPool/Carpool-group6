@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* CSS Document */
+form.db-form,
+#db_form_message {
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-size: 13px;
+}
+
+table,
+tr,
+td,
+th {
+	font: inherit;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+#db_form_message {
+	display: inline-block;
+	width: 99%;
+	border: 1px solid #666;
+	margin: 0 0 20px 0;
+}
+#db_form_message span {
+	padding: 10px;
+	display: block;
+}
+
+form input,
+form textarea {
+	margin: 0;
+	padding: 0;
+	font: inherit;
+	color: inherit;
+}
+input[type=text],
+textarea {
+	display: inline-block;
+	width: 250px;
+	height: 20px;
+	border: none;
+	border: 1px solid #999;
+}
+input[type=radio] {
+	display: inline-block;
+	margin: 0px 10px 5px 0px;
+}
+input[type=checkbox] {
+	display: inline-block;
+	margin: 5px 10px 0px 0px;
+}
+textarea {
+	resize: none;
+	height: 150px;
+}
+.textarea-table th {
+	float: left;	
+}
+th label {
+	display: inline-block;
+	width: 120px;
+	margin-right: 20px;
+	height: auto;
+}
+tr {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 10px;
+	clear: both;
+}
+input[type=button]{
+	display: inline-block;
+	margin-top: 20px;
+}
+form.hidden {
+	display: none;	
+}
+.submit-table {
+	clear: both;	
+}
+
+input.fill,
+textarea.fill {
+	border: 1px solid red;
+}
+.fill_2 {
+	color: red;	
+}
