@@ -1,4 +1,0 @@
-CarPool
-=======
-
-Software Engineering Project
